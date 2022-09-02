@@ -4,8 +4,8 @@
   "description": "",
   "main": "hello.js",
   "scripts": {
-    "serve": "netlify-lambda serve ./src",
-    "build": "netlify-lambda build ./src"
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
   },
   "keywords": [],
   "author": "",

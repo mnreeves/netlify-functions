@@ -5,4 +5,5 @@
     functions = "lambda"
 
 [build]
-    functions = "lambda"
+    Functions = "lambda"
+    Command = "npm run build:lambda"
