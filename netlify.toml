@@ -1,0 +1,8 @@
+# netlify.toml
+
+[dev]
+    command = "npm run serve"
+    functions = "lambda"
+
+[build]
+    functions = "lambda"

@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "serve": "netlify-lambda serve ./src",
+    "build": "netlify-lambda build ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
