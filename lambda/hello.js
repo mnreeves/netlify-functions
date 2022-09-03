@@ -81,11 +81,12 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 98);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 98:
 /***/ (function(module, exports) {
 
 // src/hello.js
@@ -102,4 +103,5 @@ callback // Your callback
 };
 
 /***/ })
-/******/ ])));
+
+/******/ })));

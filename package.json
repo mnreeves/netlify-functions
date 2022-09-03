@@ -4,13 +4,16 @@
   "description": "",
   "main": "hello.js",
   "scripts": {
-    "start:lambda": "netlify-lambda serve src/lambda",
-    "build:lambda": "netlify-lambda build src/lambda"
+    "serve": "netlify-lambda serve ./src",
+    "build": "netlify-lambda build ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "netlify-lambda": "^2.0.15"
+    "dotenv": "^16.0.2",
+    "faunadb": "^2.7.0",
+    "netlify-lambda": "^2.0.15",
+    "webpack": "^5.74.0"
   }
 }
